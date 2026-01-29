@@ -1,0 +1,22 @@
+:root{
+  /* Só utilitários que não valem a pena repetir em todo HTML */
+}
+
+body{font-family:'Space Grotesk',sans-serif;}
+
+/* “Glass” leve para cards */
+.glass-card{
+  background: rgba(255, 255, 255, 0.03);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+/* Scrollbar clean */
+::-webkit-scrollbar{width:0px;background:transparent;}
+.hide-scrollbar{-ms-overflow-style:none;scrollbar-width:none;}
+
+
+/* Premium dark helpers */
+body{background:#08090B;color:#fff;}
+.text-gradient{background:linear-gradient(to right,#ffffff,#0084FF);-webkit-background-clip:text;-webkit-text-fill-color:transparent;}
+.glass-effect{background:rgba(18,20,24,0.8);backdrop-filter:blur(12px);border:1px solid rgba(255,255,255,0.05);}
